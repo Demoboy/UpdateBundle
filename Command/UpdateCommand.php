@@ -5,12 +5,10 @@ namespace KMJ\UpdateBundle\Command;
 use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
-use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Process\Process;
 
 /**
- * Description of UpdateLocationsCron
- *
+ * @KMJ\CronBundle\Annotations\CronJob(minute="15", hour="0")
  * @author kaelinjacobson
  */
 class UpdateCommand extends ContainerAwareCommand {

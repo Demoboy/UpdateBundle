@@ -15,7 +15,7 @@ class UpdateService {
     }
     
     public function composerShouldUpdate() {
-        return $this->config['composer']['shouldupdate'];
+        return $this->config['composershouldupdate'];
     }
     
     public function shouldSync() {
